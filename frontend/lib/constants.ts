@@ -43,4 +43,4 @@ export const VITAL_FIELDS = [
 ] as const;
 
 export const DISCLAIMER =
-  "Simulação académica com dados sintéticos. As pontuações são parâmetros experimentais e não constituem triagem clínica.";
+  "Simulação académica com dados sintéticos. As pontuações são parâmetros experimentais e não constituem triagem clínica."

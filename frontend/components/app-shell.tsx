@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Activity, ListOrdered, FlaskConical, LayoutDashboard, SlidersHorizontal, UserPlus, Users } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { DISCLAIMER } from "@/lib/constants";
 
 const NAV = [
   { href: "/", label: "Painel", icon: LayoutDashboard },
@@ -24,7 +23,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <aside className="border-b border-line bg-ink text-white lg:sticky lg:top-0 lg:h-screen lg:border-b-0">
         <div className="flex items-center gap-2 px-5 py-4">
           <Activity className="h-5 w-5 text-[#7fd1c7]" aria-hidden />
-          <span className="text-[15px] font-semibold">Smart Triage</span>
+          <span className="text-[15px] font-semibold">Triagem inteligente</span>
         </div>
         <nav aria-label="Principal" className="flex gap-1 overflow-x-auto px-3 pb-3 lg:flex-col lg:overflow-visible">
           {NAV.map(({ href, label, icon: Icon }) => (
@@ -42,11 +41,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             </Link>
           ))}
         </nav>
-        <p className="mt-auto hidden px-5 py-5 text-xs leading-relaxed text-white/55 lg:absolute lg:bottom-0 lg:block">{DISCLAIMER}</p>
       </aside>
       <main className="min-w-0 px-4 py-6 sm:px-8 lg:py-8">
         <div className="mx-auto max-w-6xl">{children}</div>
-        <p className="mx-auto mt-8 max-w-6xl text-xs text-muted lg:hidden">{DISCLAIMER}</p>
       </main>
     </div>
   );
