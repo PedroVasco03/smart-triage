@@ -1,0 +1,16 @@
+# Versões mais recentes testadas (novembro de 2026). uvicorn[standard] instala também os extras recomendados.
+fastapi==0.163.1
+uvicorn[standard]==0.54.0
+sqlalchemy==2.1.8
+pymysql==1.2.4
+cryptography==50.0.2
+pydantic==2.14.3
+pydantic-settings==2.16.3
+alembic==1.20.1
+numpy==2.5.4
+pandas==3.1.1
+simpy==4.1.2
+python-dotenv==1.2.4
+pytest==9.2.0
+httpx==0.28.1
+matplotlib==3.11.2

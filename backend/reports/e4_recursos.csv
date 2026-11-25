@@ -1,0 +1,11 @@
+perfil,unidades_livres_de_4,A_raw,A,U
+gravidade/risco baixos,0,0.0,4.0,2.6
+gravidade/risco baixos,1,25.0,28.0,5.0
+gravidade/risco baixos,2,50.0,52.0,7.4
+gravidade/risco baixos,3,75.0,76.0,9.8
+gravidade/risco baixos,4,100.0,100.0,12.2
+gravidade/risco altos,0,0.0,83.0,66.21666666666667
+gravidade/risco altos,1,25.0,87.25,66.64166666666667
+gravidade/risco altos,2,50.0,91.5,67.06666666666666
+gravidade/risco altos,3,75.0,95.75,67.49166666666666
+gravidade/risco altos,4,100.0,100.0,67.91666666666666
