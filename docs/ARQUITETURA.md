@@ -150,4 +150,3 @@ cenários (`scenarios.py`) definem chegadas e capacidade. Mesma seed e mesma con
 - Sem autenticação nem controlo de acessos.
 - Parâmetros clínicos (intervalos, idade) são experimentais, não protocolos validados.
 - O recálculo é completo a cada evento (adequado para centenas de pacientes, não para milhares).
-- A interface não foi testada em browsers automaticamente (só compilação e tipos).
